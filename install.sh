@@ -45,7 +45,7 @@ cat > "$GITPOD_CONFIG" << 'EOF'
 
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
-tasks:
+tasks: 
   - init: npm install && npm run build
     command: npm run dev
 
