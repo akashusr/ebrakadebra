@@ -2,7 +2,7 @@
 
 set -e
 
-WORKSPACE_DIR="workspace"
+WORKSPACE_DIR="/workspace"
 TARGET_DIR=$(find "$WORKSPACE_DIR" -mindepth 1 -maxdepth 1 -type d | head -n 1)
 PROJECT_NAME=$(basename "$TARGET_DIR")
 
